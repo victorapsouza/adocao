@@ -1,3 +1,8 @@
+body {
+      font-family: 'Roboto', sans-serif;
+    }
+
+
 .navbar-nav {
 
 	font-weight: 600;
@@ -158,4 +163,19 @@ nav.navbar.shrink .navbar-toggler {
         margin-right:  -17px;
     }
 
+}
+
+body, wrapper {
+   min-height:100vh;
+}
+
+.flex-fill {
+   flex:1 1 auto;
+}
+
+#footer {
+
+  background-color: rgb(254, 67, 101);
+  margin-top: 30px;
+  color: #fff;
 }
