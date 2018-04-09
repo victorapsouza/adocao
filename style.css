@@ -1,6 +1,6 @@
 body {
-      font-family: 'Roboto', sans-serif;
-    }
+  font-family: 'Roboto', sans-serif;
+}
 
 
 .navbar-nav {
@@ -90,7 +90,7 @@ body {
 
 .form-control{
 
-	width: 60%;
+	width: 100%;
 }
 .fixed-top #first { 
   -webkit-transition:padding 0.2s ease;
@@ -109,13 +109,13 @@ body {
 }
 
 nav.navbar.shrink {
-    width: 100%;
-    height: 67px;
-    background-color: #111;
-    box-shadow: 0 1px 0 0 #dadada;
-    position: fixed;
-    left: 0px;
-    transition: all 1.5s ease;
+  width: 100%;
+  height: 67px;
+  background-color: #111;
+  box-shadow: 0 1px 0 0 #dadada;
+  position: fixed;
+  left: 0px;
+  transition: all 1.5s ease;
 
 }
 nav.navbar.shrink .navbar-brand  img{
@@ -135,6 +135,12 @@ nav.navbar.shrink .navbar-toggler {
   transition: all 1.5s ease;
 }
 
+.form-group{
+
+ width: 350px;
+ padding-top: 20px;
+}
+
 .form-control{
 	border: 1px solid rgb(254, 67, 101);
 }
@@ -144,33 +150,33 @@ nav.navbar.shrink .navbar-toggler {
 }
 
 .footer {
-    
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(254, 67, 101);
-    color: white;
-    text-align: right;
-    margin-top:50px;
-    height: 50px
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(254, 67, 101);
+  color: white;
+  text-align: right;
+  margin-top:50px;
+  height: 50px
 }
 
 @media (max-width: 767px) {
   .navbar-collapse
-    {
-        background-color:rgb(254, 67, 101);
-        margin-left:  -17px;
-        margin-right:  -17px;
-    }
+  {
+    background-color:rgb(254, 67, 101);
+    margin-left:  -17px;
+    margin-right:  -17px;
+  }
 
 }
 
 body, wrapper {
-   min-height:100vh;
+ min-height:100vh;
 }
 
 .flex-fill {
-   flex:1 1 auto;
+ flex:1 1 auto;
 }
 
 #footer {
@@ -178,4 +184,5 @@ body, wrapper {
   background-color: rgb(254, 67, 101);
   margin-top: 30px;
   color: #fff;
+  margin-top:0;
 }
