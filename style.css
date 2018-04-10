@@ -186,3 +186,8 @@ body, wrapper {
   color: #fff;
   margin-top:0;
 }
+
+.card {
+
+  border-color: rgb(254, 67, 101);
+}
