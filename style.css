@@ -168,6 +168,14 @@ nav.navbar.shrink .navbar-toggler {
     margin-left:  -17px;
     margin-right:  -17px;
   }
+  #imagem {
+
+    height: 273px !important;
+  }
+  .form-group {
+
+    width: 274px !important;
+  }
 
 }
 
@@ -190,4 +198,14 @@ body, wrapper {
 .card {
 
   border:0;
+}
+
+#imagem {
+background-size: 100% auto;
+padding-bottom: 50%;
+}
+
+#carousel-image {
+
+   opacity:0.2;
 }
